@@ -27,14 +27,14 @@ The **Computer Lab Management System** is a console-based application designed t
 - **Password Management**: Change personal password
 
 ## 🏗️ System Architecture
-├── LabManagementSystem.java # Main application entry point
-├── User.java # Base user class
-├── Administrator.java # Administrator role implementation
-├── LabAssistant.java # Lab Assistant role implementation
-├── Computer.java # Computer resource entity
-├── Peripheral.java # Peripheral resource entity
-├── ReservationManager.java # Reservation management logic
-├── ReservationSystem.java # Reservation interface
-├── MaintenanceTask.java # Abstract maintenance task
-├── ComputerMaintenanceTask.java # Computer maintenance implementation
-└── PeripheralMaintenanceTask.java # Peripheral maintenance implementation
+─ **LabManagementSystem.java**      # Main application entry point
+─ **User.java**                      # Base user class
+─ **Administrator.java**             # Administrator role implementation
+─ **LabAssistant.java**              # Lab Assistant role implementation
+─ **Computer.java**                  # Computer resource entity
+─ **Peripheral.java**                # Peripheral resource entity
+─ **ReservationManager.java**        # Reservation management logic
+─ **ReservationSystem.java**         # Reservation interface
+─ **MaintenanceTask.java**           # Abstract maintenance task
+─ **ComputerMaintenanceTask.java**   # Computer maintenance implementation
+─ **PeripheralMaintenanceTask.java** # Peripheral maintenance implementation
